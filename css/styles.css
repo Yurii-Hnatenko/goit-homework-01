@@ -1,0 +1,163 @@
+/* Маркери списку */
+.list {
+    list-style-type: none;
+}
+  /* Властивості тексту */
+.link {
+    text-decoration: none;
+}
+  
+button {
+    cursor: pointer;
+}
+  
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/* HEADER */
+.menu-link:hover,
+.menu-link:focus,
+.connect-link:hover,
+.connect-link:focus {
+    color: #404BBF;
+}
+.logo {
+    color:  #2E2F42;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16; /* 116.667% */
+    letter-spacing: 0.03em; 
+}
+span {
+    color: #4D5AE5;
+}
+.menu-link {
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 1.5; /* 150% */
+   letter-spacing: 0.02em;
+   color: #2E2F42;
+}
+.connect-link {
+    color:  #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.02em;
+    font-style: normal;
+}
+/* MOTTO */
+.size-section {
+    width: 1440px;
+    height: 600px;
+    background:  #2E2F42;
+}
+.main-title {
+    color:  #ffffff;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07; /* 107.143% */
+    letter-spacing: 0.02em;
+}
+.button-connect {
+    border-radius: 4px;
+    background:  #4D5AE5;
+    box-shadow:  rgba(0, 0, 0, 0.15);
+}
+/* BENEFITS */
+.hidden-title {
+    opacity: 0;
+}
+.benefits-title {
+    color:  #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2; /* 120% */
+    letter-spacing: 0.02em;
+}
+.benefits-content {
+    color:  #434455;
+    font-size: 16px;
+    ont-weight: 400;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.02em;
+}
+/*  Our Team */
+.title-section-team {
+    color:  #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11; /* 111.111% */
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.photo-team {
+    border: 1px solid #000;
+    background: url(<path-to-image>), lightgray -97.034px -0.927px / 181.897% 251.37% no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+}
+.photo-title {
+    color:  #2E2F42;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2; /* 120% */
+    letter-spacing: 0.02em;
+}
+.photo-content {
+    color:  #434455;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.02em;
+}
+/* Portfolio */
+.title-section-portfolio {
+    color:  #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11; /* 111.111% */
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.title-portfolio {
+    color:  #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2; /* 120% */
+    letter-spacing: 0.02em;
+}
+.content-portfolio {
+    color:  #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.02em;
+}
+/* Contacts */
+.page-footer {
+    background:  #2E2F42; 
+}
+.logo-footer {
+    color:  #F4F4FD;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16; /* 116.667% */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.content-footer {
+    color:  #F4F4FD;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.02em;
+}
