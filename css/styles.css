@@ -9,6 +9,8 @@
   
 button {
     cursor: pointer;
+    color: #434455;
+    background-color: #FFFFFF;
 }
   
 body {
@@ -21,16 +23,21 @@ body {
 .connect-link:focus {
     color: #404BBF;
 }
+.button-connect:hover,
+.button-connect:focus {
+    background-color: #404BBF;
+}
 .logo {
-    color:  #2E2F42;
-    font-family: Raleway;
+    color:  #4d5ae5;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16; /* 116.667% */
+    line-height: 1.17; /* 116.667% */
     letter-spacing: 0.03em; 
+    text-transform: uppercase;
 }
 span {
-    color: #4D5AE5;
+    color: #2e2f42;
 }
 .menu-link {
    font-size: 16px;
@@ -48,10 +55,11 @@ span {
     letter-spacing: 0.02em;
     font-style: normal;
 }
+.connect {
+    font-style: normal;
+}
 /* MOTTO */
 .size-section {
-    width: 1440px;
-    height: 600px;
     background:  #2E2F42;
 }
 .main-title {
@@ -65,8 +73,11 @@ span {
 .button-connect {
     border-radius: 4px;
     background:  #4D5AE5;
-    box-shadow:  rgba(0, 0, 0, 0.15);
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.04em;
+    color: #ffffff
 }
+
 /* BENEFITS */
 .hidden-title {
     opacity: 0;
@@ -81,11 +92,14 @@ span {
 .benefits-content {
     color:  #434455;
     font-size: 16px;
-    ont-weight: 400;
+    font-weight: 400;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
 }
 /*  Our Team */
+.section-team {
+    background-color: #F4F4FD;
+}
 .title-section-team {
     color:  #2E2F42;
     text-align: center;
@@ -94,11 +108,6 @@ span {
     line-height: 1.11; /* 111.111% */
     letter-spacing: 0.02em;
     text-transform: capitalize;
-}
-.photo-team {
-    border: 1px solid #000;
-    background: url(<path-to-image>), lightgray -97.034px -0.927px / 181.897% 251.37% no-repeat;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
 }
 .photo-title {
     color:  #2E2F42;
@@ -126,6 +135,9 @@ span {
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
+list-photo {
+    background-color: #FFFFFF;
+}
 .title-portfolio {
     color:  #2E2F42;
     font-size: 20px;
@@ -145,11 +157,11 @@ span {
     background:  #2E2F42; 
 }
 .logo-footer {
-    color:  #F4F4FD;
-    font-family: Raleway;
+    color:  #4d5ae5;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16; /* 116.667% */
+    line-height: 1.17; /* 116.667% */
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -160,4 +172,7 @@ span {
     font-weight: 400;
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
+}
+.logo-span {
+    color: #f4f4fd;
 }
