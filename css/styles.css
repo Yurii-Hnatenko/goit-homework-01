@@ -33,7 +33,7 @@ body {
     font-weight: 700;
     line-height: 1.17; /* 116.667% */
     letter-spacing: 0.03em; 
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 span {
     color: #2e2f42;
@@ -47,7 +47,7 @@ span {
 }
 .connect-link {
     color:  #434455;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5; /* 150% */
@@ -106,7 +106,7 @@ span {
     font-weight: 700;
     line-height: 1.11; /* 111.111% */
     letter-spacing: 0.02em;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 .photo-title {
     color:  #2E2F42;
@@ -135,7 +135,7 @@ span {
     font-weight: 700;
     line-height: 1.11; /* 111.111% */
     letter-spacing: 0.02em;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 .title-portfolio {
     color:  #2E2F42;
@@ -162,11 +162,11 @@ span {
     font-weight: 700;
     line-height: 1.17; /* 116.667% */
     letter-spacing: 0.03em;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 .content-footer {
     color:  #F4F4FD;
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5; /* 150% */
