@@ -9,12 +9,11 @@
   
 button {
     cursor: pointer;
-    color: #434455;
-    background-color: #FFFFFF;
 }
-  
 body {
     font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 /* HEADER */
 .menu-link:hover,
@@ -135,7 +134,7 @@ span {
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-list-photo {
+.list-photo {
     background-color: #FFFFFF;
 }
 .title-portfolio {
