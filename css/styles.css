@@ -124,6 +124,9 @@ span {
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
 }
+.list-team {
+    background-color: #FFFFFF;
+}
 /* Portfolio */
 .title-section-portfolio {
     color:  #2E2F42;
@@ -133,9 +136,6 @@ span {
     line-height: 1.11; /* 111.111% */
     letter-spacing: 0.02em;
     text-transform: capitalize;
-}
-.list-photo {
-    background-color: #FFFFFF;
 }
 .title-portfolio {
     color:  #2E2F42;
